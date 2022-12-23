@@ -1,0 +1,196 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-style: normal;
+    font-family: Arial, Helvetica, sans-serif;
+    box-sizing: border-box;
+}
+.logo{
+    width: 7rem;
+    height: 7rem;
+    display: inline-block;
+    position: relative;
+    top: 2vh;
+    left: 140vh;
+}
+header{
+    background-image: url("./IMAGENES/header.png");
+    background-size: cover;
+    background-position: bottom;
+    align-content: center;
+    height: 22vh;
+    width: 100%;
+    top: 0;
+}
+nav a{
+    color: rgb(21, 6, 6);
+    border: 3px solid rgb(218, 208, 208);
+    margin: 5px;
+    border-radius: 10px;
+    padding: 0.2rem;
+    background-color: rgb(199, 182, 182);
+    font-size: 4vh;
+    position: relative;
+    top: 0;
+
+}
+nav a:hover{
+    color: rgb(241, 235, 235);
+    border: 3px solid rgb(16, 16, 16);
+    margin: 5px;
+    border-radius: 10px;
+    padding: 0.2rem;
+    background-color: rgb(35, 19, 19);
+
+}
+body{
+    background-color: rgb(129, 35, 63);
+    
+}
+main{
+    min-height: 170vh;
+}
+.position{
+    width: 50rem;
+    height: 25rem;
+    display: inline-block;
+    align-items:center;
+    background-size: cover;
+    background: linear-gradient( to top,rgb(0 0 0 / .50), rgb( 0 0 0 / .85) ), url("./IMAGENES/image7.jpg");
+    position: relative;
+    top: 2rem;
+    left: 14rem;
+}
+.text{
+    color: rgb(251, 249, 249);
+    text-align:center;
+    
+}
+.text h1{
+    position: relative;
+    top: 1rem;
+    left: 9rem;
+}
+.text h2{
+    position: relative;
+    top: 3rem;
+    left: 9rem;
+}
+.text a{
+    color: rgb(236, 45, 45);
+    border: 1px solid rgb(68, 59, 59);
+    background-color: rgb(121, 73, 73);
+    border-radius: 10px;
+    position: relative;
+    top: 5rem;
+    left: 9rem;
+}
+.second{
+    width: 40rem;
+    height: 30rem;
+    display: inline-block;
+    align-items:center;
+    background-size: cover;
+    background: linear-gradient( to top,rgba(46, 6, 20, 0.5), rgba(126, 17, 44, 0.85) ), url("./IMAGENES/image6.jpg");
+    position: relative;
+    top: 2rem;
+    left: 20rem;
+}
+.parrafo{
+    color: rgb(253, 253, 253);
+    text-align:justify;
+    justify-content: center;
+    position: relative;
+    top: 16px;
+    left: 2rem;
+    font-size: 1.2rem;
+    vertical-align: top;
+    width: 35rem;
+    
+
+}
+section>h1{
+    font-size: 2rem;
+    display: inline;
+    position: relative;
+    top: 2rem;
+    left: 29rem;
+}
+section>h2{
+    font-size: 1,4rem;
+    display: inline-block;
+    position: relative;
+    top: 4rem;
+    left: 18rem;
+}
+
+section>img{
+    width: 20rem;
+    height: 13rem;
+    display:inline-block;
+    position: relative;
+    margin: 1rem;
+    top: 6rem;
+    left: 7rem;
+}
+
+div{
+    display:inline-block;
+    width: 20rem;
+    height: 7rem;
+    position: relative;
+    margin: 1rem;
+    top: 6rem;
+    left: 6rem;
+    font-size: 1.4rem;
+
+}
+.contacto{
+    width: 50rem;
+    height: 25rem;
+    display: inline-block;
+    align-items:center;
+    background-size: cover;
+    background: linear-gradient( to top,rgb(0 0 0 / .50), rgba(126, 43, 43, 0.85) ), url("./IMAGENES/image5.jpg");
+    margin: 1rem 1rem 2rem 10rem;
+}
+.informacion{
+    color: rgb(6, 0, 0);
+    text-align:center;
+    justify-content: center;
+    position: relative;
+    top: 5rem;
+    left: 15rem;
+    font-size: 1rem;
+
+}
+.contact{
+    width: 15rem;
+    height: 3rem;
+    font-size: 1.1rem;
+}
+.email{
+    position: relative;
+    top: 0;
+    left: 20rem;
+}
+.tel{
+    position: relative;
+    top: 0;
+    left: 20rem;
+}
+.final{
+    font-size: 1.2rem;
+    width: 17rem;
+    height: 3rem;
+    position: relative;
+    top: 5rem;
+    left: 16rem;
+    text-align: justify;
+}
+footer{
+    text-align: center;
+}
+footer a{
+    color: aliceblue;
+}
